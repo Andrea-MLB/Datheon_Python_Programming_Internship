@@ -1,6 +1,5 @@
----
 
-## Task 3: Desktop Directory Organizer (Automation)
+## Task 3: AUtomated File Organizer & Cleanup Utility
 
 A Python utility that automatically cleans up cluttered folders (like Downloads or Desktop) by categorizing files into subfolders based on their extensions.
 
@@ -85,4 +84,3 @@ The second `a.pdf` is saved as `a_1.pdf` because a file with that name was alrea
 * With `RECURSIVE = True`, files are pulled out of every sub-folder. Avoid pointing it at a project folder, because it will scatter the project's files. Set the flag to `False` for a safer top-level-only clean-up.
 * Files with no entry in `FILE_CATEGORIES` stay exactly where they are.
 
----
